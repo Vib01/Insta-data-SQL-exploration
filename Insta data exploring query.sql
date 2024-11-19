@@ -6,7 +6,7 @@ LIMIT 10;
 SELECT id,username,avg_likes
 FROM users01
 ORDER BY avg_likes DESC
-LIMIT 10;
+LIMIT 15;
 ----------------------
 SELECT id, username, channel_info, category, followers
 FROM (
